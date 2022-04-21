@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SHOPPING</title>
+    <link rel="stylesheet" href="css/html5reset-1.6.1.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+  </head>
+  <body>
+    <header>
+      <h1>商品一覧【おむつ】</h1>
+      <!-- カートのカウント部分のclassに「hidden」をつけて、
+    初期状態では表示しないように -->
+      <div class="cart">
+        <div class="cart_cnt hidden">
+          <span id="js_cart_cnt"></span>
+        </div>
+        <a class="cart_icon" href="check.html">
+          <img src="img/天秤.png" alt="天秤" />
+        </a>
+      </div>
+    </header>
+    <div class="video_wrapper">
+      <video
+        class="video1"
+        autoplay
+        playsinline //動画ファイルが埋め込まれた表示領域で再生
+        controls //コントロールボタン
+        src="movie/オムツ検証方法「吸水性」.mp4"
+      ></video>
+    </div>
+    <div id="wrapper">
+      <div class="item_wrapper">
+        <ul class="item_list">
+          <li class="item">
+            <div class="item_img">
+              <img
+                src="img/グ～ン はじめての肌着 マシュマロ仕立て/グーン（メイン）.jpg"
+                alt="グ～ン はじめての肌着 マシュマロ仕立て"
+              />
+            </div>
+            <div class="item_textbox">
+              <div class="item_title">
+                <h2>グ～ン はじめての肌着 マシュマロ仕立て</h2>
+              </div>
+             <div class="video_test">
+                <video
+                class="videos"
+                playsinline
+                controls
+                src="movie/メリーズ.mp4"></video>
+              </div>
+              <div class="item_price">
+                <span class="yen_symbol">¥</span
+                ><span class="js_get_price">1200</span>
+              </div>
+              <div class="item_btnarea">
+                <button
+                  class="item_cart_btn js_cart_btn"
+                  data-name="グ～ン はじめての肌着 マシュマロ仕立て"
+                  data-price="1200"
+                >
+                  お気に入り
+                </button>
+                <a class="item_buy_btn" href="check.html">購入</a>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="item_img">
+              <img
+                src="img/グ～ン まっさらさら通気/グ～ン まっさらさら通気（メイン）.jpg"
+                alt="グ～ン まっさらさら通気"
+              />
+            </div>
+            <div class="item_textbox">
+              <div class="item_title"><h2>グ～ン まっさらさら通気</h2></div>
+              <div class="video_test">
+                <video
+                class="videos"
+                playsinline controls src="movie/メリーズ.mp4"></video>
+              </div>
+              <div class="item_price">
+                <span class="yen_symbol">¥</span
+                ><span class="js_get_price">1100</span>
+              </div>
+              <div class="item_btnarea">
+                <button
+                  class="item_cart_btn js_cart_btn"
+                  data-name="グ～ン まっさらさら通気"
+                  data-price="1100"
+                >
+                  お気に入り
+                </button>
+                <a class="item_buy_btn" href="check.html">購入</a>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="item_img">
+              <img
+                src="img/ナチュラルムーニー/グ～ン はじめての肌着 マシュマロ仕立て（メイン）.jpg"
+                alt="ナチュラルムーニー"
+              />
+            </div>
+            <div class="item_textbox">
+              <div class="item_title"><h2>ナチュラルムーニー</h2></div>
+              <div class="video_test">
+                <video
+                class="videos"
+                playsinline controls src="movie/メリーズ.mp4"></video>
+              </div>
+              <div class="item_price">
+                <span class="yen_symbol">¥</span
+                ><span class="js_get_price">1250</span>
+              </div>
+              <div class="item_btnarea">
+                <button
+                  class="item_cart_btn js_cart_btn"
+                  data-name="ナチュラルムーニー"
+                  data-price="1250"
+                >
+                  お気に入り
+                </button>
+                <a class="item_buy_btn" href="check.html">購入</a>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="item_img">
+              <img
+                src="img/はじめての肌へのいちばん/はじめての肌へのいちばん（メイン）.jpg"
+                alt="はじめての肌へのいちばん"
+              />
+            </div>
+            <div class="item_textbox">
+              <div class="item_title">
+                <h2>はじめての肌へのいちばん</h2>
+              </div>
+              <div class="video_test">
+                <video
+                class="videos"
+                playsinline controls src="movie/メリーズ.mp4"></video>
+              </div>
+              <div class="item_price">
+                <span class="yen_symbol">¥</span
+                ><span class="js_get_price">1300</span>
+              </div>
+              <div class="item_btnarea">
+                <button
+                  class="item_cart_btn js_cart_btn"
+                  data-name="はじめての肌へのいちばん"
+                  data-price="1300"
+                >
+                  お気に入り
+                </button>
+                <a class="item_buy_btn" href="check.html">購入</a>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="item_img">
+              <img
+                src="img/バンボネイチャー テータイプ マキシ/バンボネイチャー テータイプ マキシ（メイン）.jpg"
+                alt="バンボネイチャー テータイプ マキシ"
+              />
+            </div>
+            <div class="item_textbox">
+              <div class="item_title">
+                <h2>バンボネイチャー テータイプ マキシ</h2>
+              </div>
+              <div class="video_test">
+                <video
+                class="videos"
+                playsinline controls src="movie/メリーズ.mp4"></video>
+              </div>
+              <div class="item_price">
+                <span class="yen_symbol">¥</span
+                ><span class="js_get_price">1350</span>
+              </div>
+              <div class="item_btnarea">
+                <button
+                  class="item_cart_btn js_cart_btn"
+                  data-name="バンボネイチャー テータイプ マキシ"
+                  data-price="1350"
+                >
+                  お気に入り
+                </button>
+                <a class="item_buy_btn" href="check.html">購入</a>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="item_img">
+              <img
+                src="img/メリーズ さらさらエアスルー/メリーズ さらさらエアスルー（メイン）.jpg"
+                alt="メリーズ さらさらエアスルー"
+              />
+            </div>
+            <div class="item_textbox">
+              <div class="item_title">
+                <h2>メリーズ さらさらエアスルー</h2>
+              </div>
+              <div class="video_test">
+                <video
+                class="videos"
+                playsinline controls src="movie/メリーズ.mp4"></video>
+              </div>
+              <div class="item_price">
+                <span class="yen_symbol">¥</span
+                ><span class="js_get_price">1050</span>
+              </div>
+              <div class="item_btnarea">
+                <button
+                  class="item_cart_btn js_cart_btn"
+                  data-name="メリーズ さらさらエアスルー"
+                  data-price="1050"
+                >
+                  お気に入り
+                </button>
+                <a class="item_buy_btn" href="check.html">購入</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  <!-- jquery読み込み -->
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"
+></script>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
